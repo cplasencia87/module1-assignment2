@@ -1,0 +1,139 @@
+*{
+     /*border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.sign-on-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border: 1px solid rgba(119, 136, 153, 0.308);
+}
+
+.sign-on{
+    font-size: 30px;
+    block-size: 0px;
+    padding-bottom: 75px;
+}
+
+.email-line{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.enter-email{
+    width: 98%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.password-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 0%;
+    padding-bottom: 0%;
+}
+
+.pass-line{
+    block-size: 0%;
+    padding-left: 10%;
+}
+
+.password-form{
+    width: 98%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.continue-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #e7bc56;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.help{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.new-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.new-text{ 
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border: solid red; */
+    
+    color: rgb(145, 144, 144);
+}
+
+.line{
+    border: .5px solid lightgray;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-block-size: 0px;
+    margin-top: 30px;
+
+}
+ .create-account{
+    display: flex;
+    align-items: center;
+} 
+
+.create{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 90%;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    margin-left: 5%;
+    border-radius: 2px;
+
+}
+
+.conditions{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.conditions-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+
+.cond{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
